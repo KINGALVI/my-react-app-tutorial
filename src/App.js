@@ -41,10 +41,10 @@ function Product(props) {
 function Counter() {
   const [count, setCount] = useState(0);
   const increaseCount = () =>
-    setCount(count+1);
+    setCount(count + 1);
 
-  const decreaseCount=()=>setCount(count-1)
-  
+  const decreaseCount = () => setCount(count - 1)
+
   return (
     <div>
       <h1>count: {count}</h1>
