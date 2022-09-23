@@ -1,10 +1,24 @@
 import './App.css';
 
 function App() {
+  const products=[
+    {name:'laptop',price:'14000'},
+    {name:'phone',price:'24000'},
+    {name:'watch',price:'34000'},
+    {name:'tablet',price:'44000'},
+  ]
   return (
     <div className="App">
-      <Product name='laptop'></Product>
-      <Product name='phone' price='4999'></Product>
+      
+      {/* steap-1 */}
+      {
+        products.map(product=> <Product name={product.name
+        } price={product.price}></Product>)
+      }
+
+      {/* steap-2 */}
+      {/* <Product name='laptop' price='393939'></Product>
+      <Product name='phone' price='4999'></Product> */}
     </div>
   );
 }
