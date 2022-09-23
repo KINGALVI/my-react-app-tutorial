@@ -18,8 +18,8 @@ function App() {
       }
 
       {/* steap-2 */}
-      {/* <Product name='laptop' price='393939'></Product>
-      <Product name='phone' price='4999'></Product> */}
+      <Product name='laptop' price='393939'></Product>
+      <Product name='phone' price='4999'></Product>
 
       {/* how to add a plush button in react */}
       <Counter></Counter>
